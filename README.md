@@ -1,12 +1,9 @@
 # Gaussian Elimination with partial pivoting
-
 ## AIM:
 To write a program to find the Gaussian Elimination with partial pivoting of a matrix.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
-
 ## Algorithm
 1. import numpy
 2. import sys
@@ -41,7 +38,6 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i] ),end=' ')
-    
 ```
 ## Output:
 ![gaussian elimination](Capture.jpg)
